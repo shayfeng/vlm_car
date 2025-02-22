@@ -64,3 +64,6 @@ ros2 topic echo /joint_states
 ros2 topic echo /servo_status
 ```
 ### 关于舵机节点，更详细的说明请看 [node.md](node.md)
+
+
+项目两部分：1.舵机控制节点 2.VLN摄像头GUI互动传输指令部分

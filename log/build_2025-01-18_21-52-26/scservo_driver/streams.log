@@ -1,0 +1,24 @@
+[3.694s] Invoking command in '/home/sunrise/scservo_ws/src/scservo_driver': PYTHONPATH=/home/sunrise/scservo_ws/build/scservo_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scservo_driver build --build-base /home/sunrise/scservo_ws/build/scservo_driver/build install --record /home/sunrise/scservo_ws/build/scservo_driver/install.log --single-version-externally-managed install_data
+[5.066s] running egg_info
+[5.070s] writing ../../build/scservo_driver/scservo_driver.egg-info/PKG-INFO
+[5.071s] writing dependency_links to ../../build/scservo_driver/scservo_driver.egg-info/dependency_links.txt
+[5.072s] writing entry points to ../../build/scservo_driver/scservo_driver.egg-info/entry_points.txt
+[5.073s] writing requirements to ../../build/scservo_driver/scservo_driver.egg-info/requires.txt
+[5.074s] writing top-level names to ../../build/scservo_driver/scservo_driver.egg-info/top_level.txt
+[5.085s] reading manifest file '../../build/scservo_driver/scservo_driver.egg-info/SOURCES.txt'
+[5.091s] writing manifest file '../../build/scservo_driver/scservo_driver.egg-info/SOURCES.txt'
+[5.092s] running build
+[5.093s] running build_py
+[5.093s] copying scservo_driver/scservo_controller.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver
+[5.098s] running install
+[5.100s] running install_lib
+[5.105s] copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_controller.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver
+[5.109s] byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_controller.py to scservo_controller.cpython-310.pyc
+[5.118s] running install_data
+[5.118s] running install_egg_info
+[5.128s] removing '/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver-0.0.1-py3.10.egg-info' (and everything under it)
+[5.130s] Copying ../../build/scservo_driver/scservo_driver.egg-info to /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver-0.0.1-py3.10.egg-info
+[5.134s] running install_scripts
+[5.255s] Installing scservo_node script to /home/sunrise/scservo_ws/install/scservo_driver/lib/scservo_driver
+[5.258s] writing list of installed files to '/home/sunrise/scservo_ws/build/scservo_driver/install.log'
+[5.469s] Invoked command in '/home/sunrise/scservo_ws/src/scservo_driver' returned '0': PYTHONPATH=/home/sunrise/scservo_ws/build/scservo_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scservo_driver build --build-base /home/sunrise/scservo_ws/build/scservo_driver/build install --record /home/sunrise/scservo_ws/build/scservo_driver/install.log --single-version-externally-managed install_data

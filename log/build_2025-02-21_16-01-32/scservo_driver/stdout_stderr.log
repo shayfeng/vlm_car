@@ -1,0 +1,41 @@
+running egg_info
+writing ../../build/scservo_driver/scservo_driver.egg-info/PKG-INFO
+writing dependency_links to ../../build/scservo_driver/scservo_driver.egg-info/dependency_links.txt
+writing entry points to ../../build/scservo_driver/scservo_driver.egg-info/entry_points.txt
+writing requirements to ../../build/scservo_driver/scservo_driver.egg-info/requires.txt
+writing top-level names to ../../build/scservo_driver/scservo_driver.egg-info/top_level.txt
+reading manifest file '../../build/scservo_driver/scservo_driver.egg-info/SOURCES.txt'
+writing manifest file '../../build/scservo_driver/scservo_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying scservo_driver/track_to_obj_v3.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver
+copying scservo_driver/track_to_obj_v4.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver
+running install
+running install_lib
+copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/track_to_obj_v3.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver
+copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/track_to_obj_v4.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver
+byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/track_to_obj_v3.py to track_to_obj_v3.cpython-310.pyc
+  File "/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/track_to_obj_v3.py", line 73
+    self.get_logger().info(  def __init__(self):
+                             ^^^
+SyntaxError: invalid syntax
+
+byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/track_to_obj_v4.py to track_to_obj_v4.cpython-310.pyc
+  File "/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/track_to_obj_v4.py", line 80
+    self.get_logger().info(  def __init__(self):
+                             ^^^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/scservo_driver/scservo_driver.egg-info to /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver-0.0.1-py3.10.egg-info
+running install_scripts
+Installing integrated_vision_control script to /home/sunrise/scservo_ws/install/scservo_driver/lib/scservo_driver
+Installing scservo_node script to /home/sunrise/scservo_ws/install/scservo_driver/lib/scservo_driver
+Installing track_to_obj script to /home/sunrise/scservo_ws/install/scservo_driver/lib/scservo_driver
+Installing track_to_obj_v2 script to /home/sunrise/scservo_ws/install/scservo_driver/lib/scservo_driver
+Installing track_to_obj_v3 script to /home/sunrise/scservo_ws/install/scservo_driver/lib/scservo_driver
+Installing track_to_obj_v4 script to /home/sunrise/scservo_ws/install/scservo_driver/lib/scservo_driver
+Installing voice_control_track script to /home/sunrise/scservo_ws/install/scservo_driver/lib/scservo_driver
+writing list of installed files to '/home/sunrise/scservo_ws/build/scservo_driver/install.log'

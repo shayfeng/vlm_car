@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.001152] (scservo_driver) JobQueued: {'identifier': 'scservo_driver', 'dependencies': OrderedDict()}
+[0.002200] (scservo_driver) JobStarted: {'identifier': 'scservo_driver'}
+[0.098950] (-) TimerEvent: {}
+[0.199732] (-) TimerEvent: {}
+[0.300562] (-) TimerEvent: {}
+[0.401372] (-) TimerEvent: {}
+[0.502240] (-) TimerEvent: {}
+[0.603033] (-) TimerEvent: {}
+[0.703818] (-) TimerEvent: {}
+[0.804619] (-) TimerEvent: {}
+[0.905405] (-) TimerEvent: {}
+[1.006178] (-) TimerEvent: {}
+[1.106939] (-) TimerEvent: {}
+[1.207769] (-) TimerEvent: {}
+[1.308706] (-) TimerEvent: {}
+[1.409556] (-) TimerEvent: {}
+[1.510410] (-) TimerEvent: {}
+[1.611238] (-) TimerEvent: {}
+[1.712142] (-) TimerEvent: {}
+[1.813053] (-) TimerEvent: {}
+[1.913926] (-) TimerEvent: {}
+[2.014757] (-) TimerEvent: {}
+[2.115524] (-) TimerEvent: {}
+[2.216258] (-) TimerEvent: {}
+[2.317056] (-) TimerEvent: {}
+[2.417855] (-) TimerEvent: {}
+[2.518619] (-) TimerEvent: {}
+[2.619382] (-) TimerEvent: {}
+[2.720128] (-) TimerEvent: {}
+[2.820880] (-) TimerEvent: {}
+[2.921631] (-) TimerEvent: {}
+[3.022340] (-) TimerEvent: {}
+[3.123047] (-) TimerEvent: {}
+[3.223760] (-) TimerEvent: {}
+[3.324488] (-) TimerEvent: {}
+[3.425235] (-) TimerEvent: {}
+[3.525992] (-) TimerEvent: {}
+[3.626754] (-) TimerEvent: {}
+[3.727581] (-) TimerEvent: {}
+[3.828439] (-) TimerEvent: {}
+[3.929203] (-) TimerEvent: {}
+[4.029977] (-) TimerEvent: {}
+[4.130820] (-) TimerEvent: {}
+[4.231756] (-) TimerEvent: {}
+[4.332646] (-) TimerEvent: {}
+[4.355241] (scservo_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/scservo_driver', 'build', '--build-base', '/home/sunrise/scservo_ws/build/scservo_driver/build', 'install', '--record', '/home/sunrise/scservo_ws/build/scservo_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/scservo_ws/src/scservo_driver', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'sunrise', 'SSH_CLIENT': '192.168.40.60 13458 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'BROWSER': '/home/sunrise/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'OLDPWD': '/home/sunrise', 'TERM_PROGRAM_VERSION': '1.96.4', 'NVM_NODEJS_ORG_MIRROR': 'https://npmmirror.com/mirrors/node', 'NVM_BIN': '/home/sunrise/.nvm/versions/node/v22.13.0/bin', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e7ad531f-7e85-40df-86a3-955015cdeedd.sock', 'NVM_INC': '/home/sunrise/.nvm/versions/node/v22.13.0/include/node', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/sunrise/.nvm', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/sunrise/scservo_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sunrise/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/tros/humble/bin:/home/sunrise/.nvm/versions/node/v22.13.0/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2e850ab456.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sunrise/scservo_ws/install/scservo_driver:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sunrise/scservo_ws/build/scservo_driver', 'SSH_CONNECTION': '192.168.40.60 13458 192.168.40.11 22', 'NVM_CD_FLAGS': '', 'PYTHONPATH': '/home/sunrise/scservo_ws/build/scservo_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages:/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.432800] (-) TimerEvent: {}
+[4.533595] (-) TimerEvent: {}
+[4.634357] (-) TimerEvent: {}
+[4.735104] (-) TimerEvent: {}
+[4.835852] (-) TimerEvent: {}
+[4.936590] (-) TimerEvent: {}
+[5.037298] (-) TimerEvent: {}
+[5.138047] (-) TimerEvent: {}
+[5.238793] (-) TimerEvent: {}
+[5.339540] (-) TimerEvent: {}
+[5.440307] (-) TimerEvent: {}
+[5.541108] (-) TimerEvent: {}
+[5.641955] (-) TimerEvent: {}
+[5.742755] (-) TimerEvent: {}
+[5.843545] (-) TimerEvent: {}
+[5.944348] (-) TimerEvent: {}
+[5.970677] (scservo_driver) StdoutLine: {'line': b'running egg_info\n'}
+[5.976557] (scservo_driver) StdoutLine: {'line': b'writing ../../build/scservo_driver/scservo_driver.egg-info/PKG-INFO\n'}
+[5.977684] (scservo_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/scservo_driver/scservo_driver.egg-info/dependency_links.txt\n'}
+[5.978535] (scservo_driver) StdoutLine: {'line': b'writing entry points to ../../build/scservo_driver/scservo_driver.egg-info/entry_points.txt\n'}
+[5.979232] (scservo_driver) StdoutLine: {'line': b'writing requirements to ../../build/scservo_driver/scservo_driver.egg-info/requires.txt\n'}
+[5.979835] (scservo_driver) StdoutLine: {'line': b'writing top-level names to ../../build/scservo_driver/scservo_driver.egg-info/top_level.txt\n'}
+[5.991016] (scservo_driver) StdoutLine: {'line': b"reading manifest file '../../build/scservo_driver/scservo_driver.egg-info/SOURCES.txt'\n"}
+[5.996544] (scservo_driver) StdoutLine: {'line': b"writing manifest file '../../build/scservo_driver/scservo_driver.egg-info/SOURCES.txt'\n"}
+[5.997309] (scservo_driver) StdoutLine: {'line': b'running build\n'}
+[5.997809] (scservo_driver) StdoutLine: {'line': b'running build_py\n'}
+[5.998338] (scservo_driver) StdoutLine: {'line': b'copying scservo_driver/scservo_node.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver\n'}
+[5.999074] (scservo_driver) StdoutLine: {'line': b'copying scservo_driver/scservo_controller.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver\n'}
+[6.003463] (scservo_driver) StdoutLine: {'line': b'running install\n'}
+[6.005187] (scservo_driver) StdoutLine: {'line': b'running install_lib\n'}
+[6.009457] (scservo_driver) StdoutLine: {'line': b'copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_node.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver\n'}
+[6.010309] (scservo_driver) StdoutLine: {'line': b'copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_controller.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver\n'}
+[6.014905] (scservo_driver) StdoutLine: {'line': b'byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_node.py to scservo_node.cpython-310.pyc\n'}
+[6.033498] (scservo_driver) StdoutLine: {'line': b'byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_controller.py to scservo_controller.cpython-310.pyc\n'}
+[6.041844] (scservo_driver) StdoutLine: {'line': b'running install_data\n'}
+[6.042730] (scservo_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.044433] (-) TimerEvent: {}
+[6.051904] (scservo_driver) StdoutLine: {'line': b"removing '/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[6.053499] (scservo_driver) StdoutLine: {'line': b'Copying ../../build/scservo_driver/scservo_driver.egg-info to /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver-0.0.1-py3.10.egg-info\n'}
+[6.057520] (scservo_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[6.144615] (-) TimerEvent: {}
+[6.169079] (scservo_driver) StdoutLine: {'line': b'Installing scservo_node script to /home/sunrise/scservo_ws/install/scservo_driver/lib/scservo_driver\n'}
+[6.172151] (scservo_driver) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/scservo_ws/build/scservo_driver/install.log'\n"}
+[6.244856] (-) TimerEvent: {}
+[6.345803] (-) TimerEvent: {}
+[6.378088] (scservo_driver) CommandEnded: {'returncode': 0}
+[6.448758] (-) TimerEvent: {}
+[6.452674] (scservo_driver) JobEnded: {'identifier': 'scservo_driver', 'rc': 0}
+[6.455711] (-) EventReactorShutdown: {}

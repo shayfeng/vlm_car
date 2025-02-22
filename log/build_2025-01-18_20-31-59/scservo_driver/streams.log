@@ -1,0 +1,65 @@
+[3.524s] Invoking command in '/home/sunrise/scservo_ws/src/scservo_driver': PYTHONPATH=/home/sunrise/scservo_ws/build/scservo_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scservo_driver build --build-base /home/sunrise/scservo_ws/build/scservo_driver/build install --record /home/sunrise/scservo_ws/build/scservo_driver/install.log --single-version-externally-managed install_data
+[4.812s] running egg_info
+[4.816s] creating ../../build/scservo_driver/scservo_driver.egg-info
+[4.816s] writing ../../build/scservo_driver/scservo_driver.egg-info/PKG-INFO
+[4.817s] writing dependency_links to ../../build/scservo_driver/scservo_driver.egg-info/dependency_links.txt
+[4.818s] writing entry points to ../../build/scservo_driver/scservo_driver.egg-info/entry_points.txt
+[4.819s] writing requirements to ../../build/scservo_driver/scservo_driver.egg-info/requires.txt
+[4.819s] writing top-level names to ../../build/scservo_driver/scservo_driver.egg-info/top_level.txt
+[4.820s] writing manifest file '../../build/scservo_driver/scservo_driver.egg-info/SOURCES.txt'
+[4.829s] reading manifest file '../../build/scservo_driver/scservo_driver.egg-info/SOURCES.txt'
+[4.833s] writing manifest file '../../build/scservo_driver/scservo_driver.egg-info/SOURCES.txt'
+[4.834s] running build
+[4.835s] running build_py
+[4.835s] creating /home/sunrise/scservo_ws/build/scservo_driver/build
+[4.836s] creating /home/sunrise/scservo_ws/build/scservo_driver/build/lib
+[4.837s] creating /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver
+[4.837s] copying scservo_driver/__init__.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver
+[4.838s] copying scservo_driver/scservo_node.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver
+[4.839s] copying scservo_driver/scservo_controller.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver
+[4.839s] creating /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk
+[4.840s] copying scservo_driver/scservo_sdk/group_sync_write.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk
+[4.840s] copying scservo_driver/scservo_sdk/__init__.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk
+[4.841s] copying scservo_driver/scservo_sdk/scservo_def.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk
+[4.841s] copying scservo_driver/scservo_sdk/group_sync_read.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk
+[4.842s] copying scservo_driver/scservo_sdk/protocol_packet_handler.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk
+[4.843s] copying scservo_driver/scservo_sdk/packet_handler.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk
+[4.843s] copying scservo_driver/scservo_sdk/port_handler.py -> /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk
+[4.844s] running install
+[4.845s] running install_lib
+[4.849s] creating /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver
+[4.850s] copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/__init__.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver
+[4.851s] copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_node.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver
+[4.851s] copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_controller.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver
+[4.852s] creating /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk
+[4.852s] copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk/group_sync_write.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk
+[4.853s] copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk/__init__.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk
+[4.853s] copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk/scservo_def.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk
+[4.854s] copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk/group_sync_read.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk
+[4.854s] copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk/protocol_packet_handler.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk
+[4.855s] copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk/packet_handler.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk
+[4.855s] copying /home/sunrise/scservo_ws/build/scservo_driver/build/lib/scservo_driver/scservo_sdk/port_handler.py -> /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk
+[4.857s] byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/__init__.py to __init__.cpython-310.pyc
+[4.859s] byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_node.py to scservo_node.cpython-310.pyc
+[4.863s] byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_controller.py to scservo_controller.cpython-310.pyc
+[4.867s] byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk/group_sync_write.py to group_sync_write.cpython-310.pyc
+[4.869s] byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk/__init__.py to __init__.cpython-310.pyc
+[4.870s] byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk/scservo_def.py to scservo_def.cpython-310.pyc
+[4.873s] byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk/group_sync_read.py to group_sync_read.cpython-310.pyc
+[4.877s] byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk/protocol_packet_handler.py to protocol_packet_handler.cpython-310.pyc
+[4.892s] byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk/packet_handler.py to packet_handler.cpython-310.pyc
+[4.893s] byte-compiling /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/scservo_sdk/port_handler.py to port_handler.cpython-310.pyc
+[4.898s] running install_data
+[4.898s] creating /home/sunrise/scservo_ws/install/scservo_driver/share/ament_index
+[4.899s] creating /home/sunrise/scservo_ws/install/scservo_driver/share/ament_index/resource_index
+[4.899s] creating /home/sunrise/scservo_ws/install/scservo_driver/share/ament_index/resource_index/packages
+[4.900s] copying resource/scservo_driver -> /home/sunrise/scservo_ws/install/scservo_driver/share/ament_index/resource_index/packages
+[4.900s] copying package.xml -> /home/sunrise/scservo_ws/install/scservo_driver/share/scservo_driver
+[4.901s] creating /home/sunrise/scservo_ws/install/scservo_driver/share/scservo_driver/launch
+[4.901s] copying launch/scservo_driver.launch.py -> /home/sunrise/scservo_ws/install/scservo_driver/share/scservo_driver/launch
+[4.902s] running install_egg_info
+[4.910s] Copying ../../build/scservo_driver/scservo_driver.egg-info to /home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver-0.0.1-py3.10.egg-info
+[4.914s] running install_scripts
+[5.038s] Installing scservo_node script to /home/sunrise/scservo_ws/install/scservo_driver/lib/scservo_driver
+[5.041s] writing list of installed files to '/home/sunrise/scservo_ws/build/scservo_driver/install.log'
+[5.255s] Invoked command in '/home/sunrise/scservo_ws/src/scservo_driver' returned '0': PYTHONPATH=/home/sunrise/scservo_ws/build/scservo_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/scservo_driver build --build-base /home/sunrise/scservo_ws/build/scservo_driver/build install --record /home/sunrise/scservo_ws/build/scservo_driver/install.log --single-version-externally-managed install_data

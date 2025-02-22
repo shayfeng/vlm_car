@@ -1,0 +1,5 @@
+  File "/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/improved_vision_control.py", line 94
+    "content": "content": [{"type":"text","text": "你是移动机器人的导航助手。\
+                        ^
+SyntaxError: invalid syntax
+

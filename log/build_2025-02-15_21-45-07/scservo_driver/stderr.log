@@ -1,0 +1,4 @@
+  File "/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/track_to_obj.py", line 229
+    finally:
+SyntaxError: expected 'except' or 'finally' block
+

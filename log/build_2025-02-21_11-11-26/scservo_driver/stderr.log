@@ -1,0 +1,5 @@
+  File "/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/voice_control_track.py", line 136
+    print("\n请说出要追踪的目标物体（说"退出"可以结束程序）...")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

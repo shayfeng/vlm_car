@@ -1,5 +1,6 @@
 # Readme
 
+ **舵机初始使用部分** 
 ## 1 使用上位机配置舵机
 
 ### 打开 FD.exe
@@ -66,4 +67,31 @@ ros2 topic echo /servo_status
 ### 关于舵机节点，更详细的说明请看 [node.md](node.md)
 
 
-项目两部分：1.舵机控制节点 2.VLN摄像头GUI互动传输指令部分
+项目两部分：1.舵机控制节点 2.VLM摄像头GUI互动传输指令部分
+
+ **复现部分** 
+1.工作空间WS下编译
+
+```
+cd scservo_ws/
+colcon build
+```
+
+2.激活环境
+
+```
+source install/setup.bash
+
+```
+3.打开舵机控制节点
+
+```
+ros2 run scservo_driver scservo_node
+```
+4.打开VLM目标追踪功能节点
+
+```
+ros2 run scservo_driver track_to_obj_v4
+```
+
+GUI打开后，在窗口输入即可开始目标追踪

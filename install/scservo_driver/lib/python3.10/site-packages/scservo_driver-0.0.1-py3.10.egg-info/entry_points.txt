@@ -1,9 +1,0 @@
-[console_scripts]
-integrated_vision_control = scservo_driver.integrated_vision_control:main
-scservo_node = scservo_driver.scservo_node:main
-track_to_obj = scservo_driver.track_to_obj:main
-track_to_obj_v2 = scservo_driver.track_to_obj_v2:main
-track_to_obj_v3 = scservo_driver.track_to_obj_v3:main
-track_to_obj_v4 = scservo_driver.track_to_obj_v4:main
-voice_control_track = scservo_driver.voice_control_track:main
-

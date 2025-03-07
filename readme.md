@@ -1,5 +1,5 @@
 # Readme
-
+### 本demo积木小车使用飞特舵机和RDK X5
  **舵机初始使用部分** 
 ## 1 使用上位机配置舵机
 
@@ -67,29 +67,31 @@ ros2 topic echo /servo_status
 ### 关于舵机节点，更详细的说明请看 [node.md](node.md)
 
 
-项目两部分：1.舵机控制节点 2.VLM摄像头GUI互动传输指令部分 
+### 项目两部分：1.舵机控制节点 2.VLM摄像头GUI互动传输指令部分 
 ###  **复现部分** 
+0.API可自行选择调用，也可本地部署
+### 如使用我们的相同模型，请自行配置好qwen的api
+### 如调用API请根据自己的使用场景修改 get_vision_command 函数中的"content"
 
-
-1.工作空间WS下编译
+### 1.工作空间WS下编译
 
 ```
-cd scservo_ws/
+cd vlm_car/vlm_car_ws
 colcon build
 ```
 
-2.激活环境
+### 2.激活环境
 
 ```
 source install/setup.bash
 
 ```
-3.打开舵机控制节点
+### 3.打开舵机控制节点
 
 ```
 ros2 run scservo_driver scservo_node
 ```
-4.打开VLM目标追踪功能节点
+### 4.打开VLM目标追踪功能节点
 
 ```
 ros2 run scservo_driver track_to_obj_v4

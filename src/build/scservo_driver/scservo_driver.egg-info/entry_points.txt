@@ -1,5 +1,0 @@
-[console_scripts]
-improved_vision_control = scservo_driver.improved_vision_control:main
-scservo_node = scservo_driver.scservo_node:main
-usb_camera_node = scservo_driver.usb_camera_node:main
-

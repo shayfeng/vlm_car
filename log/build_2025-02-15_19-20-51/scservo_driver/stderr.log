@@ -1,5 +1,0 @@
-  File "/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/integrated_vision_control.py", line 210
-    else
-        ^
-SyntaxError: expected ':'
-

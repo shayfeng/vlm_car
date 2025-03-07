@@ -1,5 +1,0 @@
-  File "/home/sunrise/scservo_ws/install/scservo_driver/lib/python3.10/site-packages/scservo_driver/track_to_obj_v4.py", line 466
-    main() "
-           ^
-SyntaxError: unterminated string literal (detected at line 466)
-

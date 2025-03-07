@@ -41,7 +41,7 @@ colcon build
 ```
 
 
-### Terminal 1
+Terminal 1
 ```bash
 cd scservo_ws/
 source install/setup.bash
@@ -49,18 +49,18 @@ ros2 run scservo_driver scservo_node
 ```
 也可以使用 `ros2 launch scservo_driver scservo_driver.launch.py`
 
-### Terminal 2 舵机测试脚本
+Terminal 2 舵机测试脚本
 ```bash
 cd scservo_ws/
 python test_servo.py 
 ```
 
-### Terminal 3 查看反馈数据（若需要）
+Terminal 3 查看反馈数据（若需要）
 ```bash
 ros2 topic echo /joint_states
 ```
 
-### Terminal 4 查看报错信息（若需要）
+Terminal 4 查看报错信息（若需要）
 ```bash
 ros2 topic echo /servo_status
 ```
@@ -73,25 +73,25 @@ ros2 topic echo /servo_status
 ### 如使用我们的相同模型，请自行配置好qwen的api
 ### 如调用API请根据自己的使用场景修改 get_vision_command 函数中的"content"
 
-### 1.工作空间WS下编译
+## 1.工作空间WS下编译
 
 ```
 cd vlm_car/vlm_car_ws
 colcon build
 ```
 
-### 2.激活环境
+## 2.激活环境
 
 ```
 source install/setup.bash
 
 ```
-### 3.打开舵机控制节点
+## 3.打开舵机控制节点
 
 ```
 ros2 run scservo_driver scservo_node
 ```
-### 4.打开VLM目标追踪功能节点
+## 4.打开VLM目标追踪功能节点
 
 ```
 ros2 run scservo_driver track_to_obj_v4

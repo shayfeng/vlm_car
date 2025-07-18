@@ -1,3 +1,4 @@
+gitee:https://gitee.com/feng-xie-yi/vlm_car
 # Readme
 ### 本demo积木小车使用飞特舵机和RDK X5
  **舵机初始使用部分** 
